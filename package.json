@@ -2,7 +2,7 @@
   "name": "fitnessblog_html",
   "version": "1.0.0",
   "author": "Leo Gono <hello@wpmeds.com>",
-  "homepage": "http://leogono.io",
+  "homepage": "http://leogono.com",
   "repository": {
     "type": "git",
     "url": "git://github.com/roots/roots.git"
@@ -21,6 +21,6 @@
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-recess": "~0.4.0",
+    "grunt-recess": "~0.4.0"
   }
 }
