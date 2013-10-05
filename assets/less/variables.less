@@ -3,3 +3,11 @@
 @textColor: #35393e;
 @linkColor: #6f7174;
 @droidFont: 'Droid Serif', Georgia, serif;
+
+// mixins
+	.font-size(@sizeValue) {
+	  @remValue: (@sizeValue / 10);
+	  @pxValue: (@sizeValue);
+	  font-size: ~"@{pxValue}px"; 
+	  font-size: ~"@{remValue}rem";
+	}
