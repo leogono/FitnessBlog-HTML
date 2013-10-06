@@ -4,8 +4,121 @@ Twitter: @leogono
 Author URI: http://leogono.com
 */
 
+.ir {
+  overflow: hidden;
+  *text-indent: -9999px;
+  background-color: transparent;
+  border: 0;
+}
+
+.ir:before {
+  display: block;
+  width: 0;
+  height: 150%;
+  content: "";
+}
+
+#comp-brand .fb-like {
+  margin-top: 15px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar .navbar-toggle {
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #35393e;
+}
+
+.navbar-header .navbar-brand {
+  display: block;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.navbar-collapse .nav {
+  float: right;
+  border-left: 1px solid #ccc;
+}
+
+.navbar-collapse .nav > li {
+  border-right: 1px solid #ccc;
+}
+
+.navbar-collapse .nav > li > a {
+  height: 95px;
+  padding: 30px 30px;
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #35393e;
+  border-top: 5px solid #ffffff;
+}
+
+.navbar-collapse .nav > li.active > a,
+.navbar-collapse .nav > li:hover > a {
+  border-color: #0a5689;
+}
+
 body {
   font-family: 'Droid Serif', Georgia, serif;
   font-size: 14px;
   font-size: 1.4rem;
+}
+
+#featured-posts {
+  background: url('../img/feature-bg.png') repeat-x;
+}
+
+#featured-posts .featured {
+  position: relative;
+  padding: 10px;
+  margin: 40px 0;
+  background: #ffffff;
+}
+
+#featured-posts .featured .post-thumbnail {
+  margin-right: 20px;
+}
+
+#featured-posts .featured h1 {
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+
+#featured-posts .featured .meta {
+  color: #6f7174;
+}
+
+#featured-posts .featured .entry-summary {
+  line-height: 24px;
+}
+
+#featured-posts .featured .comment-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#featured-posts .featured .comment-wrap .comment-count {
+  display: block;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-decoration: none;
+  background: #6da93c;
+}
+
+.spr {
+  background: url('../img/spr-fitnessblog.png') no-repeat;
+}
+
+.spr.navbar-brand {
+  width: 202px;
+  height: 52px;
+  background-position: 0 -8px;
 }

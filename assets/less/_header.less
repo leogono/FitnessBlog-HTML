@@ -1,3 +1,41 @@
+#comp-brand {
+	.fb-like {
+		margin-top: 15px;
+	}
+}
+.navbar {
+	margin-bottom: 0;
+	border: none;
+	.navbar-toggle {
+		color: @textColor;
+		.font-size(24);
+	}
+}
 .navbar-header {
-	
+	.navbar-brand  {
+		padding: 0;
+		display: block;
+		margin-top: 20px;
+	}
+}
+.navbar-collapse {
+	.nav {
+		border-left: 1px solid #ccc;
+		float: right;
+		> li {
+			border-right: 1px solid #ccc;
+			> a {
+				height: 95px;
+				padding: 30px 30px;
+				border-top: 5px solid @white;
+				color: @textColor;
+				.font-size(15);
+			}
+			&.active, &:hover {
+				> a {
+					border-color: @blue;
+				}
+			}
+		}
+	}
 }

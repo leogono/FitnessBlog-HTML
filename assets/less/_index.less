@@ -2,3 +2,38 @@ body {
 	font-family: @droidFont;
 	.font-size(14);
 }
+#featured-posts {
+	background: url('@{imgUrl}/feature-bg.png') repeat-x;
+	.featured {
+		background: @white;
+		margin: 40px 0;
+		padding: 10px;
+		position: relative;
+		.post-thumbnail {
+			margin-right: 20px;
+		}
+		h1 {
+			font-family: @droidFont;
+			.font-size(26);
+		}
+		.meta {
+			color: @linkColor;
+		}
+		.entry-summary {
+			line-height: 24px;
+		}
+		.comment-wrap {
+			position: absolute;
+			top: 0;
+			right: 0;
+			.comment-count  {
+				background: @brandColor;
+				padding: 5px 10px;
+				color: @white;
+				.font-size(16);
+				display: block;
+				text-decoration: none;
+			}
+		}
+	}
+}

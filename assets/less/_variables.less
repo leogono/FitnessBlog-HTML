@@ -2,12 +2,28 @@
 @blue: #0a5689;
 @textColor: #35393e;
 @linkColor: #6f7174;
+@white: #fff;
 @droidFont: 'Droid Serif', Georgia, serif;
+@imgUrl: '../img';
 
 // mixins
-	.font-size(@sizeValue) {
-	  @remValue: (@sizeValue / 10);
-	  @pxValue: (@sizeValue);
-	  font-size: ~"@{pxValue}px"; 
-	  font-size: ~"@{remValue}rem";
-	}
+.font-size(@sizeValue) {
+  @remValue: (@sizeValue / 10);
+  @pxValue: (@sizeValue);
+  font-size: ~"@{pxValue}px"; 
+  font-size: ~"@{remValue}rem";
+}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
