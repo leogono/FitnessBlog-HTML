@@ -144,22 +144,23 @@ body {
 }
 
 #author-info .author-addon {
-  padding: 2.2rem 0;
+  padding: 22px 10px;
   font-size: 12px;
   font-size: 1.2rem;
   line-height: 16px;
 }
 
 #author-info .author-addon .giant-text {
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 34px;
   font-size: 3.4rem;
-  line-height: 3.4rem;
+  line-height: 34px;
 }
 
 #author-info .author-btn {
-  margin-top: 21px;
-  margin-bottom: 20px;
+  display: block;
+  max-width: 200px;
+  margin: 21px auto 20px;
 }
 
 #author-info .col-md-2 {
