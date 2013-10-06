@@ -1,6 +1,7 @@
 body {
 	font-family: @droidFont;
 	.font-size(14);
+	background: #ebeff0;
 }
 #featured-posts {
 	background: url('@{imgUrl}/feature-bg.png') repeat-x;
@@ -35,5 +36,45 @@ body {
 				text-decoration: none;
 			}
 		}
+	}
+}
+#author-info {
+	position: relative;
+	background: @white;
+	margin: 25px 0;
+	border-bottom: 1px solid @borderColor;
+	padding: 0 20px;
+	.kristian {
+		position: absolute;
+		left: 20px;
+		bottom: 0;
+	}
+	.author-name {
+		.font-size(18);
+		font-family: @droidFont;
+		margin: 20px 0 5px 110px;
+	}
+	.author-desc {
+		.font-size(12);
+		color: #666;
+		margin-bottom: 25px;
+		margin-left: 110px;
+	}
+	.author-addon {
+		.font-size(12);
+		line-height: 16px;
+		padding: 2.2rem 0;
+		.giant-text {
+			.font-size(34);
+			line-height: 3.4rem;
+			margin-right: 10px;
+		}
+	}
+	.author-btn {
+		margin-top: 21px;
+		margin-bottom: 20px;
+	}
+	.col-md-2 {
+		border-left: 1px solid @borderColor;
 	}
 }

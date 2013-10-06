@@ -66,6 +66,7 @@ body {
   font-family: 'Droid Serif', Georgia, serif;
   font-size: 14px;
   font-size: 1.4rem;
+  background: #ebeff0;
 }
 
 #featured-posts {
@@ -113,6 +114,58 @@ body {
   background: #6da93c;
 }
 
+#author-info {
+  position: relative;
+  padding: 0 20px;
+  margin: 25px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#author-info .kristian {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+
+#author-info .author-name {
+  margin: 20px 0 5px 110px;
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+#author-info .author-desc {
+  margin-bottom: 25px;
+  margin-left: 110px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+#author-info .author-addon {
+  padding: 2.2rem 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+}
+
+#author-info .author-addon .giant-text {
+  margin-right: 10px;
+  font-size: 34px;
+  font-size: 3.4rem;
+  line-height: 3.4rem;
+}
+
+#author-info .author-btn {
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+
+#author-info .col-md-2 {
+  border-left: 1px solid #d6d6d6;
+}
+
 .spr {
   background: url('../img/spr-fitnessblog.png') no-repeat;
 }
@@ -121,4 +174,10 @@ body {
   width: 202px;
   height: 52px;
   background-position: 0 -8px;
+}
+
+.spr.kristian {
+  width: 91px;
+  height: 114px;
+  background-position: -14px -109px;
 }
