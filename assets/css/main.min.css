@@ -18,6 +18,10 @@ Author URI: http://leogono.com
   content: "";
 }
 
+#comp-brand {
+  background: #ffffff;
+}
+
 #comp-brand .fb-like {
   margin-top: 15px;
 }
