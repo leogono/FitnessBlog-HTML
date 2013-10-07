@@ -80,3 +80,39 @@ body {
 		border-left: 1px solid @borderColor;
 	}
 }
+#home-posts {
+	.post {
+		margin-bottom: 20px;
+	}
+	.post-inner {
+		background: @white;
+		border-bottom: 1px solid @borderColor;
+		padding: 10px;
+	}
+	.post-thumbnail {
+		height: 280px;
+		overflow: hidden;
+		position: relative;
+		.img-responsive {
+			width: 100%;
+			max-width: none;
+		}
+		.post-title {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			background: url('@{imgUrl}/white-transparent.png');
+			padding: 10px 20px;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		.post-extra {
+			top: 0;
+			right: 0;
+			position: absolute;
+		}
+	}
+}
+#optin-post {
+	float: left;
+}

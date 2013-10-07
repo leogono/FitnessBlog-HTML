@@ -171,6 +171,47 @@ body {
   border-left: 1px solid #d6d6d6;
 }
 
+#home-posts .post {
+  margin-bottom: 20px;
+}
+
+#home-posts .post-inner {
+  padding: 10px;
+  background: #ffffff;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#home-posts .post-thumbnail {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+}
+
+#home-posts .post-thumbnail .img-responsive {
+  width: 100%;
+  max-width: none;
+}
+
+#home-posts .post-thumbnail .post-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  background: url('../img/white-transparent.png');
+}
+
+#home-posts .post-thumbnail .post-extra {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#optin-post {
+  float: left;
+}
+
 .spr {
   background: url('../img/spr-fitnessblog.png') no-repeat;
 }
