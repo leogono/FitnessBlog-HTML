@@ -202,26 +202,24 @@ body {
   background: url('../img/white-transparent.png');
 }
 
-#home-posts .post-thumbnail .comment-wrap {
+#home-posts .post-thumbnail .post-extra {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50px;
-  text-align: center;
+  width: 40%;
+  overflow: hidden;
 }
 
-#home-posts .post-thumbnail .comment-wrap .comment-count {
-  display: block;
+#home-posts .post-thumbnail .post-extra .comment-count {
+  float: right;
   padding: 10px 5px;
   line-height: 1em;
   color: #ffffff;
   background: #6da93c;
 }
 
-#home-posts .post-thumbnail .post-format {
-  position: absolute;
-  top: 0;
-  right: 50px;
+#home-posts .post-thumbnail .post-extra .post-format {
+  float: right;
   padding: 10px;
   line-height: 1em;
   color: #ffffff;

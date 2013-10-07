@@ -106,28 +106,26 @@ body {
 			margin-bottom: 0;
 			width: 100%;
 		}
-		.comment-wrap {
+		.post-extra {
 			top: 0;
 			right: 0;
 			position: absolute;
-			width: 50px;
-			text-align: center;
+			width: 40%;
+			overflow: hidden;
 			.comment-count {
+				float: right;
 				background: @brandColor;
 				color: @white;
 				padding: 10px 5px;
 				line-height: 1em;
-				display: block;
 			}
-		}
-		.post-format {
-			top: 0;
-			right: 50px;
-			position: absolute;
-			background: @blue;
-			padding: 10px;
-			line-height: 1em;
-			color: @white;
+			.post-format {
+				float: right;
+				background: @blue;
+				padding: 10px;
+				line-height: 1em;
+				color: @white;
+			}
 		}
 	}
 }
