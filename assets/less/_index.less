@@ -4,7 +4,7 @@ body {
 	background: #ebeff0;
 }
 #featured-posts {
-	background: url('@{imgUrl}/feature-bg.png') repeat-x;
+	background: url('@{imgUrl}/feature-bg.png') top center;
 	.featured {
 		background: @white;
 		margin: 40px 0;
@@ -90,7 +90,7 @@ body {
 		padding: 10px;
 	}
 	.post-thumbnail {
-		height: 280px;
+		height: 260px;
 		overflow: hidden;
 		position: relative;
 		.img-responsive {
@@ -106,13 +106,31 @@ body {
 			margin-bottom: 0;
 			width: 100%;
 		}
-		.post-extra {
+		.comment-wrap {
 			top: 0;
 			right: 0;
 			position: absolute;
+			width: 50px;
+			text-align: center;
+			.comment-count {
+				background: @brandColor;
+				color: @white;
+				padding: 10px 5px;
+				line-height: 1em;
+				display: block;
+			}
+		}
+		.post-format {
+			top: 0;
+			right: 50px;
+			position: absolute;
+			background: @blue;
+			padding: 10px;
+			line-height: 1em;
+			color: @white;
 		}
 	}
 }
 #optin-post {
-	float: left;
+	overflow: hidden;
 }
