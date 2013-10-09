@@ -241,12 +241,12 @@ body h6 {
 
 #colophon {
   margin-top: 30px;
-  color: #8e9aa6;
+  color: #a5b7ca;
   background: url('../img/footerlist-bg.png') top center;
 }
 
 #colophon a {
-  color: #8e9aa6;
+  color: #a5b7ca;
 }
 
 #colophon a:hover {
@@ -302,10 +302,27 @@ body h6 {
 }
 
 #colophon #site-info a:hover {
-  color: #8e9aa6;
+  color: #a5b7ca;
 }
 
 #colophon #site-info p {
+  margin-bottom: 0;
+}
+
+#optin-post .optin-inner {
+  padding: 20px;
+  color: #a5b7ca;
+  background: #0a5689;
+}
+
+#optin-post .optin-inner h3 {
+  margin: 0;
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+#optin-post .optin-inner p {
   margin-bottom: 0;
 }
 
