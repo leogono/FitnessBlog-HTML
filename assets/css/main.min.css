@@ -22,22 +22,6 @@ Author URI: http://leogono.com
   width: device-width;
 }
 
-@media (max-width: 767px) {
-  
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
-
-@media (min-width: 1200px) {
-  
-}
-
 #comp-brand {
   background: #ffffff;
 }
@@ -331,6 +315,7 @@ body h6 {
 
 #optin-post .optin-inner {
   padding: 20px;
+  margin-bottom: 20px;
   color: #a5b7ca;
   background: #0a5689;
 }
@@ -360,4 +345,48 @@ body h6 {
   width: 91px;
   height: 114px;
   background-position: -14px -109px;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse .nav {
+    float: none;
+    background: #f2f2f2;
+    border: none;
+  }
+  .navbar-collapse .nav > li {
+    text-align: center;
+    border: none;
+  }
+  .navbar-collapse .nav > li > a {
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    color: #35393e;
+    border: none;
+  }
+  #comp-brand .fb-like {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+  }
+  #optin-post .optin-inner p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse .nav > li > a {
+    padding: 30px 10px;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media (min-width: 1200px) {
+  
 }

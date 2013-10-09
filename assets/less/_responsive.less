@@ -1,0 +1,49 @@
+// Visibility utilities
+// xs
+@media (max-width: @screen-xs-max) {
+  .navbar-collapse {
+		.nav {
+			border: none;
+			float: none;
+			background: darken(@white, 5%);
+			> li {
+				border: none;
+				text-align: center;
+				> a {
+					height: auto;
+					padding: 10px;
+					color: @textColor;
+					.font-size(15);
+					border: none;
+				}
+				&.active, &:hover {
+					> a {
+					}
+				}
+			}
+		}
+	}
+	#comp-brand .fb-like {
+		margin: 10px auto;
+		width: 100px;
+		display: block;
+	}
+	#optin-post .optin-inner p {
+		margin-bottom: 10px;
+	}
+}
+// sm
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .navbar-collapse .nav > li > a {
+    	padding: 30px 10px;
+    	.font-size(14);
+    }
+}
+// md
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+  
+}
+// lg
+@media (min-width: @screen-lg-min) {
+  
+}
