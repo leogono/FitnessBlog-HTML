@@ -36,6 +36,8 @@ Author URI: http://leogono.com
 }
 
 .navbar .navbar-toggle {
+  padding: 0;
+  margin-top: 28px;
   font-size: 24px;
   font-size: 2.4rem;
   color: #35393e;
@@ -400,6 +402,11 @@ body h6 {
   }
   #author-info .col-md-2 {
     border-left: none;
+  }
+  #colophon .footer-list li {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 24px;
   }
 }
 
