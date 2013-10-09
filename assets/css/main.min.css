@@ -73,6 +73,15 @@ body {
   background: #ebeff0;
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Droid Serif', Georgia, serif;
+}
+
 #featured-posts {
   background: url('../img/feature-bg.png') top center;
 }
@@ -231,6 +240,7 @@ body {
 }
 
 #colophon {
+  margin-top: 30px;
   color: #8e9aa6;
   background: url('../img/footerlist-bg.png') top center;
 }
@@ -239,13 +249,32 @@ body {
   color: #8e9aa6;
 }
 
+#colophon a:hover {
+  color: #ffffff;
+}
+
+#colophon #footer-widget {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #colophon .widget-title {
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-weight: 400;
   color: #ffffff;
 }
 
 #colophon .footer-list {
   padding: 0;
   list-style: none;
+}
+
+#colophon .footer-list li {
+  padding-left: 20px;
+  line-height: 30px;
+  background: url('../img/spr-fitnessblog.png') no-repeat;
+  background-position: 0 -298px;
 }
 
 #colophon .footer-list.topics {
@@ -257,6 +286,27 @@ body {
   float: left;
   width: 46%;
   margin-right: 4%;
+}
+
+#colophon #site-info {
+  padding: 30px 0;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  background: url('../img/black-transparent.png');
+}
+
+#colophon #site-info a {
+  color: #ffffff;
+}
+
+#colophon #site-info a:hover {
+  color: #8e9aa6;
+}
+
+#colophon #site-info p {
+  margin-bottom: 0;
 }
 
 .spr {
