@@ -230,6 +230,35 @@ body {
   overflow: hidden;
 }
 
+#colophon {
+  color: #8e9aa6;
+  background: url('../img/footerlist-bg.png') top center;
+}
+
+#colophon a {
+  color: #8e9aa6;
+}
+
+#colophon .widget-title {
+  color: #ffffff;
+}
+
+#colophon .footer-list {
+  padding: 0;
+  list-style: none;
+}
+
+#colophon .footer-list.topics {
+  width: 100%;
+  overflow: hidden;
+}
+
+#colophon .footer-list.topics li {
+  float: left;
+  width: 46%;
+  margin-right: 4%;
+}
+
 .spr {
   background: url('../img/spr-fitnessblog.png') no-repeat;
 }
