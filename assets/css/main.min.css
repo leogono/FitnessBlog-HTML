@@ -373,6 +373,34 @@ body h6 {
   #optin-post .optin-inner p {
     margin-bottom: 10px;
   }
+  #author-info .kristian {
+    left: -20px;
+  }
+  #author-info .author-name {
+    margin: 20px 30px 5px;
+    text-align: center;
+  }
+  #author-info .author-desc {
+    margin: 0 30px 0;
+    text-align: center;
+  }
+  #author-info .author-addon {
+    max-width: 130px;
+    padding: 5px 10px;
+    margin: 0 auto;
+  }
+  #author-info .author-addon .giant-text {
+    margin-right: 5px;
+    font-size: 34px;
+    font-size: 3.4rem;
+    line-height: 34px;
+  }
+  #author-info .author-btn {
+    margin: 10px auto 20px;
+  }
+  #author-info .col-md-2 {
+    border-left: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -380,6 +408,31 @@ body h6 {
     padding: 30px 10px;
     font-size: 14px;
     font-size: 1.4rem;
+  }
+  #author-info .author-name {
+    margin: 20px 0 5px;
+    text-align: center;
+  }
+  #author-info .author-desc {
+    margin: 0;
+    text-align: center;
+  }
+  #author-info .author-addon {
+    max-width: 130px;
+    padding: 5px 10px;
+    margin: 0 auto;
+  }
+  #author-info .author-addon .giant-text {
+    margin-right: 5px;
+    font-size: 34px;
+    font-size: 3.4rem;
+    line-height: 34px;
+  }
+  #author-info .author-btn {
+    margin: 10px auto 20px;
+  }
+  #author-info .col-md-2 {
+    border-left: none;
   }
 }
 
