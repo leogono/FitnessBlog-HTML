@@ -88,6 +88,10 @@ body h6 {
   font-family: 'Droid Serif', Georgia, serif;
 }
 
+main {
+  padding-bottom: 30px;
+}
+
 #featured-posts {
   background: url('../img/feature-bg.png') top center;
 }
@@ -344,7 +348,6 @@ body h6 {
 }
 
 #colophon {
-  margin-top: 30px;
   color: #a5b7ca;
   background: url('../img/footerlist-bg.png') top center;
 }
