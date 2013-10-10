@@ -245,6 +245,42 @@ body h6 {
   overflow: hidden;
 }
 
+#author-box {
+  height: 105px;
+  background: url('../img/feature-bg.png') top center;
+}
+
+#author-box .authorinfo {
+  height: 75px;
+  padding: 20px;
+  margin-top: 30px;
+  background: #ebeff0;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#author-box .authorinfo .author-name,
+#author-box .authorinfo .author-desc {
+  text-align: right;
+}
+
+#author-box .authorinfo .author-name {
+  color: #333;
+}
+
+#author-box .authorinfo .author-desc {
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+#author-box .authorinfo .avatar {
+  margin-left: 20px;
+}
+
+.single main {
+  background: #ffffff;
+}
+
 #colophon {
   margin-top: 30px;
   color: #a5b7ca;
