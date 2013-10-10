@@ -18,6 +18,14 @@ Author URI: http://leogono.com
   content: "";
 }
 
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  vertical-align: top;
+  zoom: 1;
+}
+
 @-ms-viewport {
   width: device-width;
 }
@@ -676,6 +684,18 @@ body h6 {
   width: 73px;
   height: 62px;
   background-position: -128px -73px;
+}
+
+.spr.readmore {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  vertical-align: top;
+  background-position: -224px -96px;
+  zoom: 1;
 }
 
 @media (max-width: 767px) {
