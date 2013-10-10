@@ -88,7 +88,7 @@ body h6 {
   font-family: 'Droid Serif', Georgia, serif;
 }
 
-main {
+#main {
   padding-bottom: 30px;
 }
 
@@ -352,7 +352,7 @@ main {
   list-style: none;
 }
 
-.single main {
+.single #main {
   background: #ffffff;
 }
 
@@ -417,12 +417,12 @@ main {
   background: #ebeff0 url('../img/feature-bg.png') repeat-x top center;
 }
 
-.productguide main {
+.productguide #main {
   padding-top: 30px;
   background: none;
 }
 
-.productguide main .main-content {
+.productguide #main .main-content {
   padding: 20px;
   background: #ffffff;
 }
