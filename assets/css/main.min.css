@@ -411,6 +411,15 @@ main {
   color: #0a5689;
 }
 
+.productguide main {
+  background: url('../img/feature-bg.png') repeat-x top center;
+}
+
+.productguide main .main-content {
+  padding: 20px;
+  background: #ffffff;
+}
+
 .widget {
   margin-bottom: 20px;
 }
