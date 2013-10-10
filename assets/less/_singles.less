@@ -62,39 +62,7 @@
 		}
 	}
 
-	.post-navigation {
-		display: block;
-		li {
-			border-top: none;
-			padding: 0;
-			text-transform: uppercase;
-			a {
-				display: block;
-				padding: 10px 5px;
-			}
-		}
-		.next-prev {
-			border-left: none;
-			border-right: none;
-			margin-left: 0;
-			width: 20%;
-			a {
-				color: @brandColor;
-				&:hover {
-					color: darken(@brandColor, 10%);
-				}
-			}
-		}
-		.overview {
-			width: 60%;
-			a {
-				color: #999;
-				&:hover {
-					color: darken(#999, 10%);
-				}
-			}
-		}
-	}
+	
 	.kilder-list {
 		background: #ebeff0 url('@{imgUrl}/spr-fitnessblog.png') no-repeat 0 -260px;
 		border: 1px solid @borderColor;
@@ -117,12 +85,47 @@
 	}
 }
 #comment-wrap {
-	padding: 30px 30px 0;
+	padding: 30px 30px 20px;
 	border-top: 1px solid @borderColor;
+	background: @white;
+	margin-bottom: 20px;
 	h3 {
 		margin-top: 0;
 		color: @blue;
 		.font-size(22);
 		line-height: 26px;
+	}
+}
+.post-navigation {
+	display: block;
+	li {
+		border-top: none;
+		padding: 0;
+		text-transform: uppercase;
+		a {
+			display: block;
+			padding: 10px 5px;
+		}
+	}
+	.next-prev {
+		border-left: none;
+		border-right: none;
+		margin-left: 0;
+		width: 20%;
+		a {
+			color: @brandColor;
+			&:hover {
+				color: darken(@brandColor, 10%);
+			}
+		}
+	}
+	.overview {
+		width: 60%;
+		a {
+			color: #999;
+			&:hover {
+				color: darken(#999, 10%);
+			}
+		}
 	}
 }
