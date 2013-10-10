@@ -1,12 +1,13 @@
 #author-box {
 	background: url('@{imgUrl}/feature-bg.png') top center;
 	height: 105px;
+	margin-bottom: 35px;
 	.authorinfo {
 		background: #ebeff0;
 		margin-top: 30px;
 		height: 75px;
 		border-bottom: 1px solid @borderColor;
-		padding: 20px;
+		padding: 20px 30px;
 		.author-name, .author-desc {
 			text-align: right;
 		}
@@ -25,5 +26,56 @@
 .single {
 	main {
 		background: @white;
+	}
+	.main-content {
+		padding: 0 30px;
+	}
+	.entry-content {
+		#optin-post{
+			margin-right: -30px;
+			margin-left: -30px;
+			.optin-inner {
+				h3 {
+					.font-size(16);
+				}
+				p {
+					.font-size(14);
+				}
+			}
+		}
+	}
+
+	.post-navigation {
+		display: block;
+		li {
+			border-top: none;
+			padding: 0;
+			text-transform: uppercase;
+			a {
+				display: block;
+				padding: 10px 5px;
+			}
+		}
+		.next-prev {
+			border-left: none;
+			border-right: none;
+			margin-left: 0;
+			width: 20%;
+			a {
+				color: @brandColor;
+				&:hover {
+					color: darken(@brandColor, 10%);
+				}
+			}
+		}
+		.overview {
+			width: 58%;
+			a {
+				color: #999;
+				&:hover {
+					color: darken(#999, 10%);
+				}
+			}
+		}
 	}
 }

@@ -247,12 +247,13 @@ body h6 {
 
 #author-box {
   height: 105px;
+  margin-bottom: 35px;
   background: url('../img/feature-bg.png') top center;
 }
 
 #author-box .authorinfo {
   height: 75px;
-  padding: 20px;
+  padding: 20px 30px;
   margin-top: 30px;
   background: #ebeff0;
   border-bottom: 1px solid #d6d6d6;
@@ -279,6 +280,67 @@ body h6 {
 
 .single main {
   background: #ffffff;
+}
+
+.single .main-content {
+  padding: 0 30px;
+}
+
+.single .entry-content #optin-post {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+.single .entry-content #optin-post .optin-inner h3 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.single .entry-content #optin-post .optin-inner p {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.single .post-navigation {
+  display: block;
+}
+
+.single .post-navigation li {
+  padding: 0;
+  text-transform: uppercase;
+  border-top: none;
+}
+
+.single .post-navigation li a {
+  display: block;
+  padding: 10px 5px;
+}
+
+.single .post-navigation .next-prev {
+  width: 20%;
+  margin-left: 0;
+  border-right: none;
+  border-left: none;
+}
+
+.single .post-navigation .next-prev a {
+  color: #6da93c;
+}
+
+.single .post-navigation .next-prev a:hover {
+  color: #55832f;
+}
+
+.single .post-navigation .overview {
+  width: 58%;
+}
+
+.single .post-navigation .overview a {
+  color: #999;
+}
+
+.single .post-navigation .overview a:hover {
+  color: #808080;
 }
 
 #colophon {
