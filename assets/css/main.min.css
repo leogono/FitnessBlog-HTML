@@ -532,9 +532,19 @@ main {
 }
 
 .widget.likeboxes {
-  min-height: 260px;
-  padding: 10px;
+  padding: 10px 30px 20px;
+  text-align: center;
   background: #ffffff;
+}
+
+.widget.likeboxes .fb-like {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.widget.likeboxes .twitter-share-button {
+  margin-top: 10px;
 }
 
 .widget-nav {
