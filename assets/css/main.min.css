@@ -411,6 +411,65 @@ main {
   color: #0a5689;
 }
 
+.widget {
+  margin-bottom: 20px;
+}
+
+.widget.rating-widget {
+  text-align: center;
+}
+
+.widget.rating-widget .widget-title {
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+  background: #0a5689;
+}
+
+.widget.rating-widget .rating-wrap {
+  padding: 10px;
+  border: 1px solid #d6d6d6;
+}
+
+.widget.rating-widget .rating-wrap .stars {
+  margin: 10px 0;
+}
+
+.widget.rating-widget .rating-wrap .stars .icon-star {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #cbd3d5;
+}
+
+.widget.rating-widget .rating-wrap .stars .icon-star.checked {
+  color: #ffba00;
+}
+
+.widget.rating-widget p {
+  margin: 0;
+  color: #4c4c4c;
+}
+
+.widget.comment-count-wrap {
+  padding: 15px 10px;
+  color: #fff;
+  text-align: center;
+  background: #6da93c;
+}
+
+.widget.comment-count-wrap .comment-count {
+  display: block;
+  padding-top: 5px;
+  margin: 0 auto 10px;
+  font-size: 30px;
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
 #colophon {
   color: #a5b7ca;
   background: url('../img/footerlist-bg.png') top center;
@@ -512,6 +571,12 @@ main {
   width: 91px;
   height: 114px;
   background-position: -14px -109px;
+}
+
+.spr.comment-count {
+  width: 73px;
+  height: 62px;
+  background-position: -128px -73px;
 }
 
 @media (max-width: 767px) {

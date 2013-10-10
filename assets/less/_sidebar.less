@@ -1,12 +1,46 @@
 .widget {
+	margin-bottom: 20px;
 	&.rating-widget {
-		border: 1px solid @borderColor;
 		text-align: center;
 		.widget-title{
-			
+			.font-size(14);
+			padding: 10px;
+			text-align: center;
+			background: @blue;
+			color: @white;
+			margin: 0;
+		}
+		.rating-wrap {
+			padding: 10px;
+			border: 1px solid @borderColor;
+			.stars {
+				margin: 10px 0;
+				.icon-star {
+					.font-size(16);
+					color: #cbd3d5;
+					&.checked {
+						color: #ffba00;
+					}
+				}
+			}
 		}
 		p {
 			margin: 0;
+			color: #4c4c4c;
+		}
+	}
+	&.comment-count-wrap {
+		background: @brandColor;
+		color: #fff;
+		padding: 15px 10px;
+		text-align: center;
+		.comment-count {
+			display: block;
+			.font-size(30);
+			color: @white;
+			text-align: center;
+			padding-top: 5px;
+			margin: 0 auto 10px;
 		}
 	}
 }
