@@ -1,5 +1,5 @@
 .widget {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	&.rating-widget {
 		text-align: center;
 		.widget-title{
@@ -13,6 +13,7 @@
 		.rating-wrap {
 			padding: 10px;
 			border: 1px solid @borderColor;
+			background: @white;
 			.stars {
 				margin: 10px 0;
 				.icon-star {
@@ -41,6 +42,31 @@
 			text-align: center;
 			padding-top: 5px;
 			margin: 0 auto 10px;
+		}
+	}
+	&.likeboxes {
+		min-height: 260px;
+		background: @white;
+		padding: 10px;
+	}
+}
+.widget-nav {
+	margin-bottom: 25px;
+	.menu {
+		list-style: none;
+		padding: 0;
+		li {
+			a {
+				background: @brandColor;
+				color: @white;
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid @white;
+				&:hover {
+					background: darken(@brandColor, 10%);
+					text-decoration: none;
+				}
+			}
 		}
 	}
 }
